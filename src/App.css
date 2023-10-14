@@ -101,8 +101,8 @@ html {
 
 .nav_wrapper {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav_links {
@@ -127,4 +127,15 @@ html {
 .nav_links:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.centered_links {
+    display: flex;
+    gap: 10px;
+}
+
+.end_links {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
 }
