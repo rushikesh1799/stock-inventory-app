@@ -1,0 +1,14 @@
+.filters_leftside {
+    display: flex;
+    column-gap: 1rem;
+}
+
+.dates_filter {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.dates {
+    gap: 1rem;
+}
