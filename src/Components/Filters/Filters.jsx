@@ -1,7 +1,7 @@
 import React from "react";
 import AddNewInventoryItem from "../../Pages/Inventory/AddNewInventoryItem";
-import CategoryFilter from "./categoryFilter";
 import "./Filters.css"
+import CategoryFilter from "./CategoryFilter";
 
 const Filters = () => {
     return (
